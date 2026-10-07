@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnerbeacon",
+  "version": "${version}",
+  "name": "SpawnerBeacon",
+  "description": "Lichtstrahlen ueber Spawnern (auch durch Bloecke), Farbwaehler pro Spawner-Art und Kirschblueten-Design fuer Menues und Hintergruende.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.spawnerbeacon.SpawnerBeaconClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "icon": "assets/spawnerbeacon/icon.png"
+}
